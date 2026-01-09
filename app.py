@@ -8,7 +8,8 @@ def home():
     users = [
         {"name": "Rahul", "age": 25, "email": "rahul@gmail.com"},
         {"name": "Anita", "age": 28, "email": "anita@gmail.com"},
-        {"name": "Amit", "age": 30, "email": "amit@gmail.com"}
+        {"name": "Amit", "age": 30, "email": "amit@gmail.com"},
+        {"name": "Pooja", "age": 29, "email": "pooja@gmail.com"}
     ]
     return render_template("index.html", users=users)
 
