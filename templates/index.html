@@ -3,6 +3,11 @@
 <head>
     <title>Flask Data Display</title>
     <style>
+        body{
+            background-image: linear-gradient(gray,white,gray);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
         table {
             border-collapse: collapse;
             width: 60%;
@@ -15,6 +20,10 @@
         }
         th {
             background-color: #f4f4f4;
+        }
+        tr:nth-child(odd):hover{
+            background-color: black;
+            color: white;
         }
     </style>
 </head>
